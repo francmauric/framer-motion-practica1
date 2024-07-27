@@ -1,11 +1,11 @@
-import NavBar from "./nav/NavBar";
+
 
 function Header () {
 
     return (
-        <div className="font-bold  border-2 border-red-700"> 
-           <NavBar />
-            
+        <div className="font-bold text-center text-4xl text-white border-2 border-red-700"> 
+           
+            header
 
         </div>
     )

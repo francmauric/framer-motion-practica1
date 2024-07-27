@@ -17,7 +17,7 @@ function Body2 () {
                 borderRadius:["100%", "0%"] }} 
             className="box border-2 border-rose-900 w-48"
             >
-            <motion.h1 className="text-4xl font-bold ">body</motion.h1>
+            <motion.h1 className="text-4xl font-bold ">body 2</motion.h1>
             <motion.ul animate="" className="text-2xl m-4 text-center" variants={list}>
                  <motion.li variants={item}>item 1</motion.li>
                  <motion.li variants={item}>item 2</motion.li>

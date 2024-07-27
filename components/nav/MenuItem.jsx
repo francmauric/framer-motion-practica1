@@ -5,7 +5,7 @@ const variants = {
         y:0,
         opacity:1,
         transition:{
-            y: {stiffness: 1000, velocity: -1000}
+            y: {stiffness: 1000, velocity: -100}
         } 
     },
     closed: {
@@ -23,13 +23,13 @@ function MenuItem ({ i }) {
     const style = { border: `2px solid ${colors[i]}`};
 
     return(
-        <motion.li 
+        <motion.li className="li-nav"
             variants={variants}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             >
             <div className="icon-placeholder" style={style}/>
-            <div className="icon-placeholder" style={style}/>
+            <div className="text-placeholder" style={style}/>
         </motion.li>
     )
 }

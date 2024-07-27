@@ -9,7 +9,7 @@ function Body () {
             initial={ {color: '#ff0000'} } 
             transition={{duration:3}} 
             animate={{ x:100, color:'#000' }} 
-            className="border-2 border-rose-900 w-48"
+            className="border-2 border-rose-900 w-48 flex justify-center"
             >
             <motion.h1 className="text-4xl font-bold ">body</motion.h1>
             <motion.ul animate="" className="text-2xl m-4 text-center" variants={list}>
