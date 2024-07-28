@@ -20,6 +20,8 @@ const variants = {
 const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
 
 function MenuItem ({ i }) {
+    
+    console.log(i)
     const style = { border: `2px solid ${colors[i]}`};
 
     return(
@@ -28,8 +30,8 @@ function MenuItem ({ i }) {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             >
-            <div className="icon-placeholder" style={style}/>
-            <div className="text-placeholder" style={style}/>
+            <div className="icon-placeholder" style={style}></div>
+            <div className="text-placeholder" style={style} />
         </motion.li>
     )
 }
